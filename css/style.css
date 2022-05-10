@@ -3,3 +3,7 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
+
+.nav-link.active {
+    color: red !important ;
+}

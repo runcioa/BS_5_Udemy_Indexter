@@ -18,8 +18,8 @@
           href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
-    <nav class="nav navbar navbar-expand-md navbar-light bg-light fixed-top">
+<body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
+    <nav class="nav navbar navbar-expand-md navbar-light bg-light fixed-top" id="navbar-scroll">
         <div class="container">
             <a href="#"
                class="navbar-brand">Indexter</a>
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse"
                  id="navbarToggle">
                 <!-- Per spostare a destra il menu ms-auto -->
-                <ul class="navbar-nav ms-auto my-md-0 my-3">
+                <ul class="navbar-nav ms-auto my-md-0 my-3 fw-bolder">
                     <li class="nav-item">
                         <a href="#home"
                            class="nav-link">Home</a>
@@ -125,7 +125,7 @@
     <!-- stiatistic div end -->
 
     <!-- about section start -->
-    <section class="bg-light py-5">
+    <section class="bg-light py-5" id="about">
         <div class="container">
             <div class="text-center py-5">
                 <h2 class="fw-bolder border-bottom border-info border-3 d-inline-block pb-1">
@@ -441,6 +441,16 @@
      </div>
  </section>
  <!-- Pricing session end -->
+
+ <!-- footer start -->
+<footer class="bg-dark text-white">
+    <div class="container d-flex justify-content-between pt-3 pb-1 ">
+        <p>@All right reseverd</p>
+        <p>Designed by <a href="#" target="_blank" class="text-info text-decoration-none">Digishark</a></p>
+    </div>
+</footer>
+
+ <!-- footer end -->
 
 
 
